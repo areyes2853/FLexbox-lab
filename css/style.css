@@ -14,10 +14,23 @@
     display: flex;
     justify-content: space-between;
   }
+
+  #destinations{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #actions{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+
+  }
   #trending {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 
   }
   
@@ -64,8 +77,10 @@
     background-color: white;
     padding: 32px 72px;
     display: flex;
+    /* flex-flow: column wrap; */
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+
   }
   
   nav button {
